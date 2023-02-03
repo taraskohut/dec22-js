@@ -152,7 +152,7 @@ else if (time <= 59) {
 
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
-let day = +prompt('enter any hour')
+let day = +prompt('enter any day')
 if (day === 0) {
     console.log(false);}
 else if (day <= 10) {
