@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d75ac5-e9e7-429b-9905-3bb241d83d54" name="Changes" comment="task1">
+    <list default="true" id="a1d75ac5-e9e7-429b-9905-3bb241d83d54" name="Changes" comment="task2">
+      <change afterPath="$PROJECT_DIR$/lesson1/mainetest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/maine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_lessons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_lessons/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_lessons/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_lessons/maine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_lessons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_lessons/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/maine.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +62,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675248754097</updated>
-      <workItem from="1675248755310" duration="4080000" />
+      <workItem from="1675248755310" duration="5988000" />
+      <workItem from="1675274379612" duration="1430000" />
+      <workItem from="1675365821978" duration="3575000" />
+      <workItem from="1675371505930" duration="6070000" />
+      <workItem from="1675435518242" duration="8691000" />
     </task>
     <task id="LOCAL-00001" summary="task1">
       <created>1675251886522</created>
@@ -66,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675251886522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task1">
+      <created>1675253085114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675253085114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1" />
+    <MESSAGE value="task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2" />
   </component>
 </project>

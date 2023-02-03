@@ -24,8 +24,8 @@ console.log(thr)
 let ott = 123
 console.log(ott)
 
-let P = 3.14
-console.log(P)
+let n = 3.14
+console.log(n)
 
 let ts = 2.7;
 console.log(ts)
@@ -56,6 +56,10 @@ let b = '100';
 console.log(typeof b)
 let c = true
 console.log(typeof c)
+
+
+
+
 
 
 
