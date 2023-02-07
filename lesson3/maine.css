@@ -1,0 +1,12 @@
+.product-image{
+    width: 300px;
+}
+.product-title{
+    text-transform: uppercase;
+    color: blue;
+
+}
+.product-card{
+    background-color: silver;
+
+}
