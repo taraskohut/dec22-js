@@ -38,14 +38,17 @@ while (g < 20) {
 // Масив:
 //
 	let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+    console.log(`<ul>`);
 	for (let i = 0; i < listOfItems.length; i++) {
 		const listOfItem = listOfItems[i];
-		document.write(`
-                      <ul>
-                         <li>${listOfItem}</li>
-                      </ul>
-                  `)
+		document.write(`<li>${listOfItem}</li>`)
+
 	}
+    console.log(`</ul>`)
+
+
+
+
 
 // ШАБЛОН:
 //  <ul>
