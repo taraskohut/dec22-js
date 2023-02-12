@@ -1,10 +1,9 @@
 //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 function calc(a,b) {
-    let result = a * b
+    let result = (a+b)*2
     return result
 }
-let r = calc(2, 2)
-console.log(r)
+console.log(calc(4,6))
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function calcr(r) {
@@ -12,8 +11,9 @@ function calcr(r) {
     let result = p * (r * r)
     return result
 }
-let t = calcr(5)
-console.log(t)
+
+console.log(calcr(5));
+
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 function calchr(h,r) {
@@ -24,8 +24,7 @@ function calchr(h,r) {
     return result
 
 }
-let g = calchr(10,5)
-console.log(g)
+console.log(calchr(10, 5));
 
 
 // - створити функцію яка приймає масив та виводить кожен його елемент

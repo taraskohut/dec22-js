@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/самостійне/converter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/самостійне/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/самостійне/maine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/maine.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/maine.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1675958769876" duration="15422000" />
       <workItem from="1676059082949" duration="4407000" />
       <workItem from="1676104530821" duration="10450000" />
-      <workItem from="1676134223443" duration="14365000" />
+      <workItem from="1676134223443" duration="14762000" />
     </task>
     <task id="LOCAL-00001" summary="task1">
       <created>1675251886522</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675879517771</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="task">
+      <created>1676215621711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676215621711</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
