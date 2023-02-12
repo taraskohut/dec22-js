@@ -1,15 +1,15 @@
 //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 function calc(a,b) {
-    let result = (a+b)*2
-    return result
+    return (a+b)*2
+
 }
 console.log(calc(4,6))
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function calcr(r) {
     let p = 3.14
-    let result = p * (r * r)
-    return result
+    return p * (r * r)
+
 }
 
 console.log(calcr(5));
@@ -20,8 +20,8 @@ function calchr(h,r) {
     const p = 3.14
     let s0 = p * (r*r)
     let sb = 2 * (p*r*h)
-    let result = 2 * s0 + sb;
-    return result
+    return 2 * s0 + sb;
+
 
 }
 console.log(calchr(10, 5));
@@ -86,7 +86,6 @@ ulli('some txt')
 function ulliCull(liTxt, liCalc) {
     console.log(`<ul>`)
     for (let i = 0; i <liCalc; i++) {
-        ;
         document.write(`
         <li>${liTxt}</li>`
         )
