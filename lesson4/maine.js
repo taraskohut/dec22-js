@@ -30,29 +30,32 @@ console.log(g)
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true}
-]
+    let users = [
+        {name: 'vasya', age: 31, status: false},
+        {name: 'petya', age: 30, status: true},
+        {name: 'kolya', age: 29, status: true},
+        {name: 'olya', age: 28, status: false},
+        {name: 'max', age: 30, status: true},
+        {name: 'anya', age: 31, status: false},
+        {name: 'oleg', age: 28, status: false},
+        {name: 'andrey', age: 29, status: true},
+        {name: 'masha', age: 30, status: true},
+        {name: 'olya', age: 31, status: false},
+        {name: 'max', age: 31, status: true}
+    ]
 
-function us() {
-    for (let i = 0; i < users.length; i++) {
-        const user = users[i];
+
+
+
+function us(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        const user = arr[i];
         console.log(user)
 
     }
 
 }
-us()
+us(users)
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
@@ -81,8 +84,8 @@ function ulli(litext) {
 ulli('some txt')
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
-function ullicukl(litxt, licalc) {`
-<ul></ul>`
+function ullicukl(litxt, licalc) {
+    console.log(`<ul>`)
     for (let i = 0; i <licalc; i++) {
         ;
         document.write(`
@@ -92,16 +95,96 @@ function ullicukl(litxt, licalc) {`
 
         
     }
+    console.log(`</ul>`)
 
 
 }
 ullicukl('brbr', 3)
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+let mass = ['one', 'two', 3, 4, 5, true, false, 6, 100500, 'last']
+function massFunction(arr) {
+    document.write(`<ul>`)
+    for (let i = 0; i < arr.length; i++) {
+        const ms = arr[i];
+        document.write(`<li>${ms}</li>`)
+
+    }
+    document.write(`</ul>`)
+
+}
+massFunction(mass)
+
+
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+let mass1 = [{name: 'vasya'},{id: 1},{age:33}]
+function massFunction1() {
+    console.log(mass1[0])
+    console.log(mass1[1])
+    console.log(mass1[2])
+}
+massFunction1()
+
 // - створити функцію яка повертає найменьше число з масиву
+
+let massnum = [99, 77, 55, 3, 2, 33, 7, 6, 100500, 999]
+function minnum(arr) {
+    let min = arr[0]
+    for (const arrElemet of arr) {
+        if (arrElemet <= min){
+            min = arrElemet
+        }
+        
+    }
+    console.log(min)
+
+}
+minnum(massnum)
+
+
+
+
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+
+function arraySum(array){
+    let sum = 0;
+    for(let i = 0; i < array.length; i++){
+        sum += array[i];
+    }
+    console.log(sum);
+
+
+}
+
+arraySum(massnum)
+
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+function swap(arr,index1,index2) {
+    let x = arr[index1];
+    let y = arr[index2];
+    arr[index1] = y;
+    arr[index2] = x;
+    return arr;
+
+
+}
+
+console.log(swap([11, 22, 33, 44,55], 1, 4));
+
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+
+function exchange(sumUAH,currencyValues,exchangeCurrency){
+    for (const currencyElement of currencyValues) {
+        if (currencyElement.currency === exchangeCurrency){
+            return sumUAH/currencyElement.value
+        }
+    }
+}
+console.log(exchange(4200,[{currency:'USD',value:40},{currency:'EUR',value:42}],'EUR'))
+
+
+
+
