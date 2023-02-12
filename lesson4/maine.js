@@ -118,12 +118,12 @@ massFunction(mass)
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 let mass1 = [{name: 'vasya'},{id: 1},{age:33}]
-function massFunction1() {
-    console.log(mass1[0])
-    console.log(mass1[1])
-    console.log(mass1[2])
+function massFunction1(arr) {
+    console.log(arr[0])
+    console.log(arr[1])
+    console.log(arr[2])
 }
-massFunction1()
+massFunction1(mass1)
 
 // - створити функцію яка повертає найменьше число з масиву
 
@@ -170,7 +170,7 @@ function swap(arr,index1,index2) {
 
 }
 
-console.log(swap([11, 22, 33, 44,55], 1, 4));
+console.log(swap([11, 22, 33, 44,55], 0, 3));
 
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
