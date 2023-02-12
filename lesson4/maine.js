@@ -68,13 +68,13 @@ paragraf('some text')
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-function ulli(litext) {
+function ulli(liText) {
     document.write(`
     <ul>
        
-       <li>${litext}</li>
-       <li>${litext}</li>
-       <li>${litext}</li>
+       <li>${liText}</li>
+       <li>${liText}</li>
+       <li>${liText}</li>
     
     </ul>
     `)
@@ -83,34 +83,31 @@ function ulli(litext) {
 ulli('some txt')
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
-function ullicukl(litxt, licalc) {
+function ulliCull(liTxt, liCalc) {
     console.log(`<ul>`)
-    for (let i = 0; i <licalc; i++) {
+    for (let i = 0; i <liCalc; i++) {
         ;
         document.write(`
-        <li>${litxt}</li>`
+        <li>${liTxt}</li>`
         )
-        
-
-        
     }
     console.log(`</ul>`)
 
 
 }
-ullicukl('brbr', 3)
+ulliCull('brbr', 3)
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
 let mass = ['one', 'two', 3, 4, 5, true, false, 6, 100500, 'last']
 function massFunction(arr) {
-    document.write(`<ul>`)
+    document.write(`<ul>`);
     for (let i = 0; i < arr.length; i++) {
         const ms = arr[i];
         document.write(`<li>${ms}</li>`)
 
     }
-    document.write(`</ul>`)
+    document.write(`</ul>`);
 
 }
 massFunction(mass)
@@ -129,7 +126,7 @@ massFunction1(mass1)
 
 let massnum = [99, 77, 55, 3, 2, 33, 7, 6, 100500, 999]
 function minnum(arr) {
-    let min = arr[0]
+    let min = arr[0];
     for (const arrElemet of arr) {
         if (arrElemet <= min){
             min = arrElemet
