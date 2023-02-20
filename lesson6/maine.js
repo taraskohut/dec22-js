@@ -41,10 +41,10 @@ console.log(split)
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
 
 let mass = [10,8,-7,55,987,-1011,0,1050,0]
-let toStr = mass.toString()
+let toStr = mass.map(value =>{
+    return value +''
+})
 console.log(toStr)
-console.log(typeof toStr)
-
 
 
 
@@ -52,31 +52,25 @@ console.log(typeof toStr)
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 let nums = [11,21,3];
 console.log(nums)
-//function sortArr(arr,direction){
-//     if (direction === 'ascending'){
-//         let sor = arr.sort(function (a,b){
-//             return a - b
-//         })
-//     }if (direction !== 'ascending'){
-//         let sor= arr.sort(function (a,b){
-//             return b - a
-//         })
-//     }
-//
-//
-//
-// }
-// console.log(sortArr(nums, 'ascending'));
-function sortArr(direction) {
-    if (direction === 'ascending') {
-        nums.sort((a, b) => {
-                return a - b
+function sortArr(arr,direction){
+     if (direction === 'ascending'){
+         let sor = arr.sort((a,b) => a-b);
+         return sor
 
-            }
-        );
-    }
+     }
 
-}
+     if (direction === 'descending') {``
+         let sor1 = arr.sort((a, b) => b - a);
+         return sor1
+     }
+
+
+
+
+ }
+ console.log(sortArr(nums, 'ascending'));
+console.log(sortArr(nums, 'descending'));
+
 
 
 
@@ -341,7 +335,7 @@ console.log(filteredCards2)
 //  - всі трефи від 9 та більше
 
 let filteredCards3 = cards.filter(function (value) {
-    return value.cardSuit === 'clubs' && value.value > '9';});
+    return value.cardSuit === 'clubs' && value.value !== '6' && value.value !== '7' && value.value !== '8' && value.value !== '9'});
 console.log(filteredCards3)
 
 //
